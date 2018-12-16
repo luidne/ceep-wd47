@@ -1,0 +1,36 @@
+{
+  "name": "projeto-wd47",
+  "version": "1.0.0",
+  "description": "Projeto feito no curso da Caelum/UFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/babel src --out-dir dist --copy-files --presets=@babel/env --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caelum/projeto-wd47.git"
+  },
+  "author": "Luídne Mota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caelum/projeto-wd47/issues"
+  },
+  "homepage": "https://github.com/caelum/projeto-wd47#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "jquery": "^3.3.1"
+  }
+}
